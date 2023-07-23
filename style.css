@@ -1,0 +1,120 @@
+body {
+  background-color: #C5C6C7;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 0.5em; /* Adjust the margin as needed */
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  justify-items: center;
+  margin-top: 0.2em; /* Adjust the margin as needed */
+}
+
+p {
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #C5C6C7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.resumes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.resume {
+  background-color: #C5C6C7;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.resume h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.images img {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.create-cv-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.create-cv-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Add new CSS rules for aligning student and professional resume items */
+.resume-group {
+  display: flex;
+}
+
+.resume-group .resume {
+  flex: 1;
+  max-width: 200px; /* Adjust the max-width as needed */
+}
+
+.resume-group .resume h2 {
+  font-size: 14px; /* Decreased text size for better alignment */
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #C5C6C7;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.2em;
+}
